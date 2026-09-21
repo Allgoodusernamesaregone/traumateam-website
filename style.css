@@ -9,14 +9,7 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
-  background-image: url(../media/background.jpg);
-}
-
-html, body {
-    height: 100%;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
+  background-image: url("../media/background.jpg");
 }
 
 .container {
