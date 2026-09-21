@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trauma Team - Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip-to content</a>
+<div class="container">
+  
+  <header>
+    <img src="media/navbar.png" class="header-banner" alt="Trauma Team logo">
+    <nav class="nav">
+      <a href="index.html">Medical Services</a>
+      <a href="packages.html">Premium Packages</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  
+  </header>
+
+  <div class="contact-header" id="main-content">
+    <h2>Get in touch, We're here to help</h2>
+    <p>Trauma Team in Night City</p>
+  </div>
+
+  <div class="contact-info">
+    <div class="info-box">
+      <div class="icon-placeholder">✉</div>
+      <div class="info-text">
+        <strong>Email</strong><br>
+        <span>ttinfo@ncity.traumateam.corp</span>
+      </div>
+    </div>
+    <div class="info-box">
+      <div class="icon-placeholder">📍</div>
+      <div class="info-text">
+        <strong>Address</strong><br>
+        <span>NC Ring road North</span>
+      </div>
+    </div>
+  </div>
+
+  <form action="mailto:lo5apv@inf.elte.hu" method="POST">
+    
+    <div class="form-row">
+      <div class="form-group">
+        <label for="FirstName">First Name</label>
+        <input type="text" name="first_name" id="FirstName" maxlength="50">
+      </div>
+      <div class="form-group">
+        <label for="LastName">Last Name</label>
+        <input type="text" name="last_name" id="LastName" maxlength="50">
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="PhoneNumber">Phone</label>
+        <input type="text" name="phone" id="PhoneNumber" maxlength="15">
+      </div>
+      <div class="form-group">
+        <label for="EmailAddress">Email</label>
+        <input type="email" name="email" id="EmailAddress" maxlength="254">
+      </div>
+    </div>
+
+    <div class="ssn-row">
+      <div class="form-group">
+        <label for="SSCNumber">Social Security Number</label>
+        <input type="text" name="ssn" id="SSCNumber" maxlength="11">
+      </div>
+      <div class="radio-group">
+        <div class="radio-item">
+          <input type="radio" name="plan" id="upgradeForMyself">
+          <label for="upgradeForMyself">Upgrade plan for myself</label>
+        </div>
+        <div class="radio-item">
+          <input type="radio" name="plan" id="upgradeForSomeone">
+          <label for="upgradeForSomeone">Upgrade plan for someone else</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-row" style="margin-bottom: 0;">
+      <div class="form-request">
+        <label for="CustomerRequest">Request</label>
+        <textarea name="request" id="CustomerRequest" 
+        placeholder="Type your request here..." maxlength="500"></textarea>
+      </div>
+    </div>
+
+    <div class="checkbox-group">
+      <input type="checkbox" id="newsletter" name="newsletter" checked>
+      <label for="newsletter">Subscribe to our newsletter</label>
+    </div>
+
+    <div class="button-row">
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
